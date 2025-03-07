@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FNF Chromatic Scale Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            padding: 20px;
+            background-color: #1e1e1e;
+            color: #ffffff;
+        }
+        h1, h2 {
+            color: #ffcc00;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #292929;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+        }
+        code {
+            background-color: #333;
+            padding: 2px 5px;
+            border-radius: 4px;
+            font-family: "Courier New", Courier, monospace;
+            color: #ffcc00;
+        }
+        .footer {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 12px;
+            color: #bbbbbb;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>FNF Chromatic Scale Generator</h1>
+        <p>This tool automatically generates simple <strong>pitched chromatic scales</strong> from samples, providing an easier alternative to manual pitch-shifting methods for <em>Friday Night Funkin'</em> mod songs.</p>
+        
+        <h2>How to Use</h2>
+        
+        <h3>1. Prepare Your Samples</h3>
+        <ul>
+            <li>Place your vowel or other sound samples in a single folder.</li>
+            <li>Ensure they are labeled as <code>.wav</code> files in numerical order, such as:
+                <ul>
+                    <li><code>1.wav</code></li>
+                    <li><code>2.wav</code></li>
+                    <li><code>3.wav</code></li>
+                    <li>... and so on, in the order you want them to appear in the chromatic scale.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h3>2. Load Your Samples</h3>
+        <ul>
+            <li>Select the folder containing your <code>.wav</code> files.</li>
+            <li>Choose the following settings:
+                <ul>
+                    <li><strong>Starting Note</strong> (e.g., C4)</li>
+                    <li><strong>Octave Range</strong></li>
+                    <li><strong>Gap Length</strong> (spacing between samples in the scale; cannot be 0)</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h3>3. Generate the Chromatic Scale</h3>
+        <ul>
+            <li>Click <strong>"Generate Chromatic"</strong> to create a fully-pitched chromatic scale. The output will be saved in the selected folder.</li>
+            <li>Optionally, you can choose to:
+                <ul>
+                    <li><strong>Dump the pitched samples</strong> (useful for making a soundfont).</li>
+                    <li><strong>Generate without pitching</strong> (creates a chromatic sequence using raw samples without pitch modification).</li>
+                </ul>
+            </li>
+        </ul>
+
+        <p>This tool simplifies the process of creating custom <strong>FNF chromatic scales</strong>, reducing the need for manual pitch adjustments and allowing for faster workflow in mod development.</p>
+        
+        <div class="footer">
+            <p>Created for FNF modding | Last updated: 2025</p>
+        </div>
+    </div>
+
+</body>
+</html>
